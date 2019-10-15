@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3797CF</color>
+    <color name="colorPrimaryDark">#207BBD</color>
+    <color name="colorAccent">#D81B60</color>
+
+    // Home page colors
+    <color name="homeColorPrimary">#1c3f60</color>
+    <color name="homeColorPrimaryDark">#071522</color>
+    <color name="homeColorAccent">#D81B60</color>
+
+    // Profile page colors
+    <color name="profileColorPrimary">#3e4d5c</color>
+    <color name="profileColorPrimaryDark">#2d2f31</color>
+    <color name="profileColorAccent">#0D5D98</color>
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="white">#FFFFFF</color>
+</resources>

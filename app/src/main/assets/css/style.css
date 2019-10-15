@@ -1,0 +1,29 @@
+
+
+ul, ol {
+  padding-left: 7% !important;
+}
+
+.img {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Sizing */
+
+
+
+/* Coloring */
+
+.title-green {
+    color: #11cf99;
+    padding-top: 2px;
+}
+.text-yellow {color: #F57F17}
+
+.bg-green  { background-color: #4CAF50 !important; }
+.bg-red    { background-color: #EF5350 !important; }
+.bg-yellow { background-color: #F9A825 !important; }

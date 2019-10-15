@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miku.kepobola">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_kb"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_kb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityVideoList"></activity>
+        <activity
+            android:name=".ProfileDosenActivity"
+            android:theme="@style/ProfileTheme" />
+        <activity
+            android:name=".WebProfileActivity"
+            android:theme="@style/FirstTheme" />
+        <activity
+            android:name=".ContentActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:name=".SectionListActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/ProfileTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/FirstTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
